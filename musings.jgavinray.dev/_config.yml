@@ -16,7 +16,7 @@
 title: My Musings
 email: jgavinray at linux dot com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a simple blog that allows me to document my memories of
+  This is a simple blog that allows me to document memories of
   things that I have accomplished.  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
