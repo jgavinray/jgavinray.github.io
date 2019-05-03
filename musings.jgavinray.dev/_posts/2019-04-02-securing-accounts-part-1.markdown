@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Web Browsing and Account Management - Part 1"
+date:   2019-4-2 12:15:00 -0800
+background: '/img/posts/05.jpg'
+---
+
+
+<h2 class="section-heading">Introduction</h2>
+<p>This is the second article in the in a series that presents an opinionated and hopefully simple way to protect your online accounts.  To see the motivation as to why I'm writing this article, please see the previous article.</p>
+
+<h2 class="section-heading">The Web Browser Choice</h2>
+<p>Continuing with the opinionated approach, we are going to setup the Chrome web browser.  At the time of this writing the <a href="https://en.wikipedia.org/wiki/Usage_share_of_web_browsers">usage share of web browsers</a> at Wikipedia reports that <a href="https://en.wikipedia.org/wiki/Google_Chrome">Google Chrome</a> is used by well over 50% of individual's surfing the internet.  Because of this large market share, many web sites are optimized to run with Google Chrome.  This particular browser is developed by Google, its <a href="https://en.wikipedia.org/wiki/Chromium_(web_browser)">core software</a> is opensource so that professionals from all walks of live can review it for vulnerabilities and fix them quickly.  The parts that aren't open source are developed by Google directly, and when you are using Google products the company is  making money [^1] [^2]. Because of this, it is in Google's best interest to invest heavily in some of the best engineers and security experts in the world to keep Google Chrome safe and free of vulnerabilities.</p>
+
+<p><b>NOTE:</b>  This is the perspective/opinion of why this browser was chosen, there are many facts and other perspectives from professionals that can present a good case to counter this.  But for the sake of ease, we will continue with the opinion/perspective listed above.</p>
+
+<h2 class="section-heading">Downloading Chrome</h2>
+<p>If you are using a <a href="https://en.wikipedia.org/wiki/Chromebook">Chromebook</a>, then I say congratulations to you!  By default Google Chrome is already installed and you can skip this section.</p>
+
+<p>If you are using <a href="https://en.wikipedia.org/wiki/Microsoft_Windows">Windows</a> or <a href="https://en.wikipedia.org/wiki/MacOS">macOS</a> you will need to download Chrome from Google directly. If you click on this link: <a href="https://www.google.com/chrome/">https://www.google.com/chrome/</a> you will receive instructions on how to download the Google Chrome web browser.<p>
+
+<h2 class="section-heading">Creating a Google Acount - Optional</h2>
+<p>Creating a Google Account is mandetory for Chromebooks, but is optional for Windows and MacOS.  While you certainly don't have to create an account with Google to move forward with this guide, it is recommended.  And the reason being is that Google will allow you to seemlessly get access to your bookmarks, browsing history, and browser configuration on any machine that has Google Chrome on it once logged in.  So if you have multiple computers in your family its a easy way to ensure a consistent experience on all your machines.  In addition to that, Google will proactively monitor your account and let you know if someone/something is trying to get into your account that isn't you.  Again see the opening opinion about why this is a good thing to have a company the size of Google keep their eyes on your stuff. You can create a Google Account (which comes with a free gmail.com email) by going to <a href="https://accounts.google.com/signup">https://accounts.google.com/signup</a> and following the directions.<p>
+
+<h2 class="section-heading">Making Chrome Better - Extensions</h2>
+<p>Once install Chrome is a fantastic web browser with tons of great fetures, and alot that happens under behind the scenes to keep your web browsing safe.  But believe it or not, there are a handful of things that can improve your web browsing experience on top of this.  <a href="https://en.wikipedia.org/wiki/Browser_extension">Browser extentions</a> can be installed to prevent ad's from being thrown in your face everytime you goto a website, other extentions can be installed to prevent <a href="https://en.wikipedia.org/wiki/HTTP_cookie">cookies</a> from tracking your online activity.  We are going to install two extensions <a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?hl=en">HTTPS Everywhere</a> and the <a href="https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en-US">LastPass: Free Password Manager</a>.  Please click on the two previous links and click install extension when prompted to, I will explain what they are and how they work in the next few paragraphs.  
+<p>
+
+<h2 class="section-heading">HTTPS Everywhere - What is it?</h2>
+<p>HTTPS Everywhere is an extention that monitors where you are trying to go on the internet.  Specifically it checks the <a href="https://en.wikipedia.org/wiki/URL">url</a> you are attempting to go to see if it is using the <a href="https://en.wikipedia.org/wiki/HTTPS">https</a> protocol.  By default HTTPS Everywhere will not allow you to connect to a website that does not encypt web traffic unless its explicitly told its ok.  As I write this I'm thinking about the reader responding, what is so important about https, encryption, and why do I care?  From a technical perspective encryption is complicated, it involves math, computer science, standards and other many other things.  However, I found a great illustration about why you want to use it a few years ago. <a href="https://twitter.com/kosamari/">Mariko Kosaka</a> posted a diagram called <a href="https://twitter.com/kosamari/status/841175583983841280">"Why you should HTTPS"</a> which depicts a communication from a buyer and a seller online. For illustrative purposes, once you have looked at the diagram think of yourself as the individual on the far left, and your bank or amazon.com being the store on the far right. In a nutshell HTTPS Everywhere helps stop you from getting into a situation where anyone can directly see  what your sending to websites.  The result being your passwords, credit card information, email address, and whatever you type into said website is kept between the two parties.<p>
+
+[^1]: https://hackernoon.com/how-does-google-earn-money-as-simple-as-that-60c5b399100e
+[^2]: https://www.forbes.com/sites/benkepes/2013/12/04/google-users-youre-the-product-not-the-customer/#27849f4676d6
