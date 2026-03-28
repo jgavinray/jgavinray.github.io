@@ -120,8 +120,8 @@ body::before {
 }
 
 .hero-avatar {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--accent);
