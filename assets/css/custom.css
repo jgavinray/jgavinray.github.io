@@ -191,6 +191,16 @@ body::before {
   margin-bottom: 24px;
 }
 
+.hero-hook {
+  font-size: clamp(0.9rem, 1.8vw, 1.0625rem);
+  color: var(--accent-cyan);
+  max-width: 640px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
 .hero-tagline {
   font-size: clamp(1rem, 2.2vw, 1.25rem);
   color: var(--text-muted);
