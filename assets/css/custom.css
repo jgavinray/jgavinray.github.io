@@ -483,60 +483,51 @@ ul { list-style: none; }
   gap: 8px;
 }
 
-/* ── Skills ─────────────────────────────────────────────── */
-.skills-grid {
+/* ── Expertise ───────────────────────────────────────────── */
+.expertise-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 32px;
+  gap: 24px;
 }
-@media (min-width: 540px) {
-  .skills-grid { grid-template-columns: 1fr 1fr; }
+@media (min-width: 580px) {
+  .expertise-grid { grid-template-columns: 1fr 1fr; }
 }
-@media (min-width: 760px) {
-  .skills-grid { grid-template-columns: 1fr 1fr 1fr; }
+@media (min-width: 860px) {
+  .expertise-grid { grid-template-columns: 1fr 1fr 1fr; }
 }
 
-.skill-group {
+.expertise-item {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 24px;
-  transition: border-color var(--transition);
+  padding: 28px 24px;
+  border-top: 2px solid var(--accent);
+  transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
 }
-.skill-group:hover {
+.expertise-item:hover {
   border-color: var(--accent);
+  box-shadow: 0 8px 28px rgba(59,130,246,0.12);
+  transform: translateY(-2px);
 }
 
-.skill-category {
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--accent-cyan);
+.expertise-icon {
+  font-size: 1.5rem;
   margin-bottom: 14px;
 }
 
-.skill-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+.expertise-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
 }
 
-.tag {
-  display: inline-block;
-  padding: 4px 12px;
-  border-radius: 4px;
-  font-size: 0.8125rem;
-  font-weight: 500;
-  background: rgba(59,130,246,0.08);
-  color: var(--text);
-  border: 1px solid rgba(59,130,246,0.2);
-  transition: all var(--transition);
-}
-.tag:hover {
-  background: rgba(59,130,246,0.18);
-  border-color: var(--accent);
-  color: #fff;
+.expertise-desc {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.65;
 }
 
 /* ── Contact ─────────────────────────────────────────────── */
