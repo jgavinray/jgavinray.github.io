@@ -591,15 +591,6 @@ ul { list-style: none; }
 .fade-in {
   opacity: 1;
   transform: translateY(0);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.js-loaded .fade-in {
-  opacity: 0;
-  transform: translateY(24px);
-}
-.js-loaded .fade-in.visible {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 /* Stagger children in timeline */
