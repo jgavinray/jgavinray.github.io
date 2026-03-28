@@ -145,6 +145,13 @@ ul { list-style: none; }
 .br-desktop { display: none; }
 @media (min-width: 640px) { .br-desktop { display: block; } }
 
+.hero-location {
+  font-size: 0.875rem;
+  color: var(--text-faint);
+  margin-bottom: 32px;
+  letter-spacing: 0.02em;
+}
+
 /* Buttons */
 .hero-ctas {
   display: flex;
