@@ -645,3 +645,24 @@ body::before {
   .hero-ctas { flex-direction: column; align-items: center; }
   .hero-ctas .btn { width: 100%; justify-content: center; max-width: 280px; }
 }
+
+/* ── Hero impact band ────────────────────────────────────── */
+.hero-impact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 0;
+  margin-bottom: 32px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.hero-impact-item {
+  color: var(--text-muted);
+  padding: 0 10px;
+}
+.hero-impact-sep {
+  color: var(--accent);
+  font-weight: 700;
+}
